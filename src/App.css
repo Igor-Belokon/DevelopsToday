@@ -20,3 +20,10 @@
 .App-link {
   color: #09d3ac;
 }
+.mess-style {
+  width: 200px;
+  height: 50px;
+  border: 1px black solid;
+  margin: 5px;
+  background-color: rgb(155, 115, 66);
+}

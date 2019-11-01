@@ -1,14 +1,13 @@
 import React from "react";
-import "./style.css";
 
 import { Provider } from "react-redux";
 
-import { Board } from "./components/board";
+import Board from "./components/board/board.js";
 import store from "./store";
 function App() {
   return (
     <Provider store={store}>
-      <div className="">
+      <div>
         <Board></Board>
       </div>
     </Provider>
